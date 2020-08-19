@@ -1,0 +1,63 @@
+
+.stick-left-nav-ul {
+	padding-left: 20px;
+	width: 95px;
+}
+.sticky-left-nav {
+	position: fixed;
+	width: 120px;
+	display: block;
+	background-color: transparent;
+	z-index: 1;
+}
+.sticky-left-nav ul li {
+	list-style: none;
+	height: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.sticky-left-nav ul li a::before, .side-menu .sticky-left-nav ul li.nav-active-menu a::before {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 1px;
+	opacity: 1;
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+.side-menu .sticky-left-nav ul li a::before {
+	background-color: #000 !important;
+}
+.sticky-left-nav ul li.nav-active a::before, .side-menu .sticky-left-nav ul li.nav-active-menu a::before {
+	width: 60px;
+	height: 4px;
+	opacity: 1;
+}
+.side-menu .sticky-left-nav ul li.nav-active-menu {
+	margin-bottom: 50px !important;
+}
+.sticky-left-nav ul li a, .sticky-left-nav ul li a:hover, .sticky-left-nav ul li a:focus {
+	text-decoration: none;
+}
+.sticky-left-nav ul li a span {
+	display: block;
+	color: #fff;
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+	padding-top: 5px;
+	font-size: 14px;
+}
+.side-menu .sticky-left-nav ul li a span {
+	color: #000 !important;
+	opacity: 1 !important;
+}
+.sticky-left-nav ul li.nav-active a span {
+	opacity: 1;
+}
+.sticky-left-nav ul li.darkText a span {
+	color: #7E7E7E !important;
+}
+.sticky-left-nav ul li.darkText a::before {
+	background-color: #7E7E7E !important;
+	opacity: 1;
+}
