@@ -9940,3 +9940,9 @@ margin:20px 0px 0px 0px;
 	color:#5a5a5a;
 	font-size:14px;
 }
+@media (max-width: 991.98px){
+	.left-scroll{
+		display:none;
+	}
+	
+}
