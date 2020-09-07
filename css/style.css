@@ -9944,5 +9944,8 @@ margin:20px 0px 0px 0px;
 	.left-scroll{
 		display:none;
 	}
+	.ftco-navbar-light.scrolled .navbar-brand{
+		margin: 0 auto;
+	}
 	
 }
