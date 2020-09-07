@@ -8413,13 +8413,16 @@ h1, h2, h3, h4, h5,
   font-weight: 700; }
   @media (max-width: 991.98px) {
     .slider-text h1 {
-      font-size: 30px; } }
+      font-size: 26px; } }
 
 .slider-text p {
-  font-size: 32px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Montserrat', sans-serif;
+
+  }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -9919,9 +9922,14 @@ background-color:#cece;
 	padding: 20px 0px 0px 0px;
 }
 .btn-readmore{
-	
+padding:26px 0px 0px 0px;	
 color:white;	
-font-size:25px;
+font-size:17px;
+}
+
+.btn-readmore a{
+	color:white;	
+font-size:17px;
 }
 .heading{
 
