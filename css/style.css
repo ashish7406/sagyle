@@ -9574,7 +9574,9 @@ textarea.form-control {
     line-height: 1.5;
      }
   .block-23 ul li span {
-    color: #5a5a5a; }
+    color: #5a5a5a; 
+	    padding: 0px 0px 6px 0px;
+	}
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
     vertical-align: top; }
@@ -9957,5 +9959,33 @@ margin:20px 0px 0px 0px;
 	.ftco-navbar-light.scrolled .navbar-brand{
 		margin: 0 auto;
 	}
+	.toptext{
+	padding: 46px 0px 0px 0px;
+	
 	
 }
+
+	
+	
+	
+}
+.toptext{
+	padding: 76px 0px 0px 0px;
+	
+	
+}
+.img-responsive{
+	max-width:100%;
+	height: auto;
+	display:block;
+	
+}
+
+.toptext img{
+	    position: relative;
+    overflow: hidden;
+	
+}
+
+
+
