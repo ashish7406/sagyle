@@ -9369,7 +9369,7 @@ textarea.form-control {
     z-index: -1;
     background: #060a24; }
   .testimony-wrap .text {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     width: 60%;
     padding: 20px;
     position: relative; }
@@ -9986,6 +9986,11 @@ margin:20px 0px 0px 0px;
     overflow: hidden;
 	
 }
+
+
+
+
+
 
 
 
