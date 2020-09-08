@@ -9233,7 +9233,7 @@ textarea.form-control {
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
     .testimony-section .owl-carousel .owl-stage-outer .owl-item.active.center .testimony-wrap .text {
-      background: rgba(0, 0, 0, 0.2);
+      background: rgba(0, 0, 0, 0.4);
       -moz-transition: all 2s ease;
       -o-transition: all 2s ease;
       -webkit-transition: all 2s ease;
@@ -9575,6 +9575,7 @@ textarea.form-control {
      }
   .block-23 ul li span {
     color: #5a5a5a; 
+	font-size:14px;
 	    padding: 0px 0px 6px 0px;
 	}
   .block-23 ul li .icon, .block-23 ul li .text {
@@ -10024,8 +10025,15 @@ margin:20px 0px 0px 0px;
   background: #bb0000;
   color: white !important;
 }
+.fa-insta{
+	
+	  background: #bb0000;
+  color: white !important;
+	
+	
+}
 
-.fa-fb-f:before, .fa-fb:before {
+.fa-fb:before, .fa-fb:before {
     content: "\f09a";
 }
 .fa-twit:before {
@@ -10041,5 +10049,10 @@ margin:20px 0px 0px 0px;
     content: "\f167";
 }
 
-
-
+.fa-insta:before {
+    content: "\f16d";
+}
+.footerlist li a:hover{
+	
+	color:#081C4F!important;
+}
